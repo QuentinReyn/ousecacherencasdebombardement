@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ousecacherencasdebombardement</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="onLoad()">
+    <main class="flex flex-wrap">
+      <div class="side-list w-full sm:w-1/1 md:w-1/2 lg:w-2/6">
+        <ul>
+          <li>ezaezae</li>
+          <li>ezaezae</li>
+        </ul>
+      </div>
+      <div
+        class="map w-full sm:w-1/1 md:w-1/2 lg:w-4/6 mx-4 sm:mb-2 md:mx-0 lg:mx-0 lg:mb-0 relative"
+      >
+        <div id="map" style="height: 100%; width: 100%; min-height: 600px">
+          <h3>azezae</h3>
+        </div>
+      </div>
+    </main>
+
+    <button onclick="darkMode()">Darkmode</button>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoicXVlbnRpbnJleW5hdWQiLCJhIjoiY2wwNzhlMHN5MDFvNzNiazZsOTRiNGpqayJ9.XXAvee4e_smTWhS0_TR85w';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+    </script>
+  </body>
+</html>
